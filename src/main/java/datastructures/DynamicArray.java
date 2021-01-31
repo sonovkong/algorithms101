@@ -78,7 +78,7 @@ public class DynamicArray<String> {
     }
 
     // Some array implementations offer methods like insert (also known as pushBack).
-    // Which is like insert, only in does the insert at the end of the array.
+    // Which is like insert, only it does the insert at the end of the array.
     public void add(String value) {
 
         if (size == initialCapacity) {
